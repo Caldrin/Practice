@@ -1,5 +1,5 @@
 CC      = gcc
-CFLAGS  = -Wall -g -Werror -std=c99
+CFLAGS  = -Wall -Werror -std=c99
 
 OBJ = reverse.o
 BIN = reverse.exe
