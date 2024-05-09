@@ -131,7 +131,7 @@ void print_elapsed_time(struct timeval tv_start, struct timeval tv_end)
                 seconds += 1;
                 useconds += 1000000;
         }
-        printf("%ld.%ld seconds\n", seconds, useconds);
+        printf("%ld.%06ld seconds\n", seconds, useconds);
         return;
 }
 
